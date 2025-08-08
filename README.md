@@ -1,14 +1,10 @@
 # Principal R&D Engineer & System Architect 
 *Latency is a tax on reality. Let’s eliminate it.*
 
-I run two parallel tracks:
-I lead my own long-horizon R&D projects and consult for a **small number of top-tier teams** where architecture is a true competitive advantage.
+I consult for a select few **top-tier** teams where architecture is a true competitive advantage to fund my own long-horizon R&D in infrastructure and trading systems.
+In trading, I have full skin in the game, risking my own capital.
 
-The consulting work funds my deep research into infrastructure, trading systems, and performance engineering.
-
-In trading, I have full skin in the game: I risk my own capital with no outside investors.
-
-> If you're building an infrastructure-level system—one that must survive failure, evolve over years, and perform at the limits of hardware—and you need someone who can find a competitive edge in it, let's talk.
+> If you're building an infrastructure-level system that must survive failure, evolve for years, and perform at the limits of hardware, let's talk.
 
 📧 yura.nevsky@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/korzhenevski)
@@ -50,7 +46,7 @@ This is the **ultimate application** of my 15 years in systems engineering: buil
 Switched to a C dialect with near 1:1 instruction mapping, outperforming idiomatic C++ by 60–80% on critical paths.
 
 ### 2018–2021 — Full-System Depth
-Deepened my expertise in C++, modern Bazel, and binary-level tuning. I worked across the stack—from iOS (Swift, Obj-C) to Flutter (Dart)—to build systems, not just services.
+Deepened my expertise in C++, modern Bazel, and binary-level tuning. I worked across the stack: from iOS (Swift, Obj-C) to Flutter (Dart) to build systems, not just services.
 
 ### 2015–2018 — An Early Bet on Cloud-Native
 Deployed Kubernetes across multiple datacenters before it was popular. Built high-concurrency systems with async Python long before it was mainstream.
@@ -62,7 +58,7 @@ Shifted from full-time employment to independent consulting, making an early, su
 Launched production SPAs with Angular.js and MongoDB in the pre-MEAN era, making a strategic bet on JSON-native infrastructure while others clung to the LAMP stack.
 
 ### 2011–2012 — High-Concurrency Groundwork
-Built real-time platforms in Erlang and Ruby. Championed dev/prod parity with Vagrant—four years before Docker existed.
+Built real-time platforms in Erlang and Ruby. Dev/prod parity with Vagrant: four years before Docker existed.
 
 ### 2008–2010 — APIs, CDNs & Schema Dynamics
 Developed a dynamic-schema API (a precursor to GraphQL) for a VoD platform and built a 10 Gbps video CDN, which was extreme scale for the time.

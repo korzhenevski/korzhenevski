@@ -52,8 +52,8 @@ Deepened my expertise in C++, modern Bazel, and binary-level tuning. I worked ac
 ### 2015–2018 — An Early Bet on Cloud-Native
 Deployed Kubernetes across multiple datacenters before it was popular. Built high-concurrency systems with async Python long before it was mainstream.
 
-### 2014 — The Go Bet
-Became an early adopter of Go, building high-load infrastructure with its core concurrency primitives.
+### 2014 — The Go Bet & The Shift to R&D Consulting
+This year, I shifted from full-time employment to a model of an **independent R&D expert** for companies. At the same time, I made an early bet on Go, using it to build high-load infrastructure. This dual move defined my career for the years to come.
 
 ### 2012–2013 — Pioneering the Modern Web Stack
 Launched production SPAs with Angular.js and MongoDB in the pre-MEAN era, making a strategic bet on JSON-native infrastructure while others clung to the LAMP stack.

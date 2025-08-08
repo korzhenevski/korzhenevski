@@ -2,9 +2,13 @@
 
 ### Introduction
 
-I was brought in to consult on a recommendation engine. The story was a familiar one in the industry: a promising product built on a high-level stack (Python, managed cloud services) was hitting the dual walls of unpredictable latency and spiraling operational costs. The business logic was sound, but the implementation was bleeding efficiency. The request was to "make it faster." My assessment was that the problem wasn't something to be *fixed*; the entire data-plane needed to be rebuilt from first principles.
+I was brought in to consult on a recommendation engine. The story was a familiar one in the industry: a promising product built on a high-level stack (Python, managed cloud services) was hitting the dual walls of unpredictable latency and spiraling operational costs. The business logic was sound, but the implementation was bleeding efficiency.
 
-This document details the architectural philosophy we applied, borrowing heavily from the world of high-frequency trading (HFT) and low-level systems programming. We treated the hardware as the platform, not an abstraction layer. The result was a C++ core engine where performance is a designed property, not an emergent one.
+The request was to "make it faster." My assessment was that the problem wasn't something to be *fixed*; the entire data-plane needed to be rebuilt from first principles.
+
+This document details the architectural philosophy we applied, borrowing heavily from the world of high-frequency trading (HFT) and low-level systems programming. We treated the hardware as the platform, not an abstraction layer.
+
+The result was a C++ core engine where performance is a designed property, not an emergent one.
 
 ### 1. The Data Layer: RocksDB as the System of Record
 
@@ -57,4 +61,8 @@ Once the core components were in place, the focus shifted to optimizing the end-
 
 Bringing a low-latency mindset to a mainstream recommendation problem reveals a simple truth: most performance issues are not algorithmic, they are implementational. The cloud and high-level languages have trained a generation of engineers to ignore the machine.
 
-A high-performance system is built on a foundation of disciplined choices: choosing data structures that respect cache lines, writing code that maps cleanly to the CPU's vector units, and measuring the latency of every component relentlessly. By treating the problem with the rigor of an HFT system—where every nanosecond is scrutinized—we built an engine that was not just faster, but fundamentally more efficient and scalable than its predecessor. Performance, in the end, is not a feature you add. It is a feature you design.
+A high-performance system is built on a foundation of disciplined choices: choosing data structures that respect cache lines, writing code that maps cleanly to the CPU's vector units, and measuring the latency of every component relentlessly.
+
+By treating the problem with the rigor of an HFT system—where every nanosecond is scrutinized—we built an engine that was not just faster, but fundamentally more efficient and scalable than its predecessor.
+
+Performance, in the end, is not a feature you add. It is a feature you design.

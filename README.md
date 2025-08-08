@@ -1,47 +1,40 @@
-# Principal R&D Engineer & System Architect - Competitive Advantage. 
+# Principal R&D Engineer & System Architect 
 *Latency is a tax on reality. Let’s eliminate it.*
 
-## My Operating Model: Own Deep R&D private projects + High-quality external projects Consulting
+I run two parallel tracks:
+I lead my own long-horizon R&D projects and consult for a **small number of top-tier teams** where architecture is a true competitive advantage.
 
-I run long-horizon R&D — in infrastructure, trading systems, and performance engineering.  
-To fund it, I consult with a small set of top-tier teams where architecture truly matters.  
-In trading, I have full skin in the game: with my own capital and no external funding.
-  
-If you're building an infrastructure-level system — one that must survive failure, evolve over years, and perform near hardware limits —  
-and you're looking for someone who can find **competitive advantage** (with bare-metal: optional), let's talk.
+The consulting work funds my deep research into infrastructure, trading systems, and performance engineering.
+
+In trading, I have full skin in the game: I risk my own capital with no outside investors.
+
+> If you're building an infrastructure-level system—one that must survive failure, evolve over years, and perform at the limits of hardware—and you need someone who can find a competitive edge in it, let's talk.
 
 📧 yura.nevsky@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/korzhenevski)
 
 ---
 
-## My Hall Of Fame
+## Key Projects
 
-**[Recommendation Engine](https://github.com/korzhenevski/korzhenevski/blob/master/RecEngine.md) for TikTok-like social app (2023)**
-> Serve **10K RPS** with `p99 < 20 ms` on bare-metal.
-> SIMD HNSW + Roaring Bitmaps in **C++/Go**
-> Deployed early on **Graviton** (ARM Instances, 2× cost efficiency). Now: ARM = industry norm.
-> Result: **p99 < 15 ms sustained**.
+### **[Recommendation Engine](https://github.com/korzhenevski/korzhenevski/blob/master/RecEngine.md) for TikTok-like social app (2023)**
+Built a recommendation engine to serve 10K RPS with p99 < 20ms on bare metal. The C++/Go solution used SIMD HNSW + Roaring Bitmaps. I was an early adopter of AWS Graviton (ARM instances), achieving 2x cost efficiency before it became the norm. The system now sustains **p99 < 15 ms**.
 
-**Blockchain Validator Node for leading Altcoin Mining Pool (2022)**
-> Accelerate a black-box PoW node (no docs, limited source-code).
-> Reverse-engineered gossip layer. Custom booster in **Go/C++**. Optimization with PGO + AVX2.
-> Result: **+16% validator reward**, no protocol changes.
 
-**HFT Market Data Lake for 20+ quants trading firm (2019)**
-> Query a 50 TB / 500B-row market data lake in real time (was 60s+).
-> Pre-mainstream **ClickHouse** design: schema, cluster, OS tuning. Now: Clickhouse = industry standard.
-> Result: **<50 ms** latency — **1200× faster**. 
+### **Blockchain Validator Node for leading Altcoin Mining Pool (2022)**
+Accelerated a black-box PoW node that had no docs and limited source code. I reverse-engineered its gossip layer and wrote a custom booster in Go/C++. Optimizing with PGO + AVX2 resulted in a **+16% validator reward** with zero protocol changes.
 
-**[Distributed Financial DB](https://github.com/korzhenevski/korzhenevski/blob/master/AsgardDB.md) for NASDAQ-traded fintech company (2017)**
-> Survive a full datacenter failure in a geo-distributed financial processor.
-> Co-designed with 1 other engineer. Built on ePaxos + RAMCloud principles.
-> Passed **Jepsen** — the world's toughest test for distributed systems.
 
-**Security Scanner for Yandex Global Infra (2015)**
-> Built in 4 months, scanning **50K+ servers 24/7** — even during DC failures.
-> Deployed across 3 datacenters, deeply integrated with internal infra.
-> **Saved $1M+ vs commercial solution.** Still in use.
+### **HFT Market Data Lake for a 20+ Quant Trading Firm (2019)**
+Engineered a system to query a **50 TB / 500B**-row market data lake in real time, cutting latency from 60+ seconds to milliseconds. I designed the ClickHouse architecture (schema, clustering, OS tuning) long before it became the industry standard. The result: **<50 ms query latency—a 1200x speedup.**
+
+
+### **[Distributed Financial DB](https://github.com/korzhenevski/korzhenevski/blob/master/AsgardDB.md) for a NASDAQ-listed Fintech (2017)**
+Co-designed (with one other engineer) a geo-distributed financial processor that could survive a full datacenter failure. Built on ePaxos and RAMCloud principles, the **system passed Jepsen** — the world's toughest distributed systems test.
+
+
+### **Security Scanner for Yandex's Global Infrastructure (2015)**
+Built a scanner in 4 months to monitor 50K+ servers 24/7, even during DC failures. Deeply integrated with internal infra across 3 datacenters, it saved the company over **$1M vs. a commercial solution**. It's still in use today.
 
 ---
 

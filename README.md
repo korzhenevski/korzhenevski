@@ -41,7 +41,7 @@ Built a scanner in 4 months to monitor 50K+ servers 24/7, even during DC failure
 ## My Engineering Path: 17 Years of Betting on Technology, Not Hype
 
 ### 2024–Now — Quant Trading R&D at 1ms.tech
-Synthesizing 15+ years of systems experience into generating alpha from market microstructure. The goal: to make chaotic L2/L3 order flow legible, tradable, and architecturally sound.
+To me, trading is not a casino of speculation. It is an **industrial-grade R&D discipline** dedicated to the systematic discovery of market inefficiencies, as pioneered by thinkers like Marcos López de Prado. This is where my 15+ years of experience in building high-performance, low-level systems find their ultimate application.
 
 ### 2022–2023 — Mastering the Metal
 Switched to a C dialect with near 1:1 instruction mapping, outperforming idiomatic C++ by 60–80% on critical paths.

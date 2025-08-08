@@ -40,8 +40,11 @@ Built a scanner in 4 months to monitor 50K+ servers 24/7, even during DC failure
 
 ## My Engineering Path: 17 Years of Betting on Technology, Not Hype
 
-### 2024–Now — Quant Trading R&D at 1ms.tech
-To me, trading is not a casino of speculation. It is an **industrial-grade R&D discipline** dedicated to the systematic discovery of market inefficiencies, as pioneered by thinkers like Marcos López de Prado. This is where my 15+ years of experience in building high-performance, low-level systems find their ultimate application.
+### 2024–Now — Quant Trading R&D at my lab, 1ms.tech
+
+At my R&D lab, 1ms.tech, I treat trading as a science, not speculation. The process is about forming a hypothesis about a market inefficiency, testing it rigorously, and only accepting discoveries backed by undeniable evidence. It's the antithesis of overfitting models to random noise.
+
+This is the **ultimate application** of my 15 years in systems engineering: building the architecture to turn market chaos into a laboratory for verifiable discoveries.
 
 ### 2022–2023 — Mastering the Metal
 Switched to a C dialect with near 1:1 instruction mapping, outperforming idiomatic C++ by 60–80% on critical paths.

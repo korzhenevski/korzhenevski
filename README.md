@@ -23,11 +23,11 @@ Accelerated a black-box PoW node that had no docs and limited source code. I rev
 
 
 ### **HFT Market Data Lake for a 20+ Quant Trading Firm (2019)**
-Engineered a system to query a **50 TB / 500B**-row market data lake in real time, cutting latency from 60+ seconds to milliseconds. I designed the ClickHouse architecture (schema, clustering, OS tuning) long before it became the industry standard. The result: **<50 ms query latency—a 1200x speedup.**
+Engineered a system to query a **50 TB / 500B**-row market data lake in real time, cutting latency from 60+ seconds to milliseconds. I designed the ClickHouse architecture (schema, clustering, OS tuning) long before it became the industry standard. The result: **<50 ms query latency: a 1200x speedup.**
 
 
 ### **[Distributed Financial DB](https://github.com/korzhenevski/korzhenevski/blob/master/AsgardDB.md) for a NASDAQ-listed Fintech (2017)**
-Co-designed (with one other engineer) a geo-distributed financial processor that could survive a full datacenter failure. Built on ePaxos and RAMCloud principles, the **system passed Jepsen** — the world's toughest distributed systems test.
+Co-designed (with one other engineer) a geo-distributed financial processor that could survive a full datacenter failure. Built on ePaxos and RAMCloud principles, the **system passed Jepsen**: the world's toughest distributed systems test.
 
 
 ### **Security Scanner for Yandex's Global Infrastructure (2015)**

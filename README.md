@@ -1,8 +1,8 @@
 # Principal R&D Engineer & System Architect 
 *Latency is a tax on reality. Let’s eliminate it.*
 
-I consult for a select few **top-tier** teams where architecture is a true competitive advantage to fund my own long-horizon R&D in infrastructure and trading systems.
-In trading, I have full skin in the game, risking my own capital.
+I partner with a handful of elite teams on their hardest architectural challenges.
+This funds my private R&D lab, where I have full skin in the game—risking my own capital.
 
 > If you're building an infrastructure-level system that must survive failure, evolve for years, and perform at the limits of hardware, let's talk.
 

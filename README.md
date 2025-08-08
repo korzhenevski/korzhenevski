@@ -38,38 +38,28 @@ Built a scanner in 4 months to monitor 50K+ servers 24/7, even during DC failure
 
 ---
 
-## Engineering Journey: 17 Years of Strategic Bets Over Hype
+## My Engineering Path: 17 Years of Betting on Technology, Not Hype
 
-**2024–Now** — *Quant Trading R&D* `1ms.tech`  
-> Synthesizing 15+ years of systems experience into market-structure-aware alpha generation.  
-> Goal: make chaotic L2/L3 order flow legible, tradable, and architecturally sound.
+### 2024–Now — Quant Trading R&D at 1ms.tech
+Synthesizing 15+ years of systems experience into generating alpha from market microstructure. The goal: to make chaotic L2/L3 order flow legible, tradable, and architecturally sound.
 
-**2022–2023** — *Bare-Metal Control*  
-> Built in a C dialect with near 1:1 instruction mapping.  
-> Outperformed idiomatic C++ by **60–80%** on critical paths.
+### 2022–2023 — Mastering the Metal
+Switched to a C dialect with near 1:1 instruction mapping, outperforming idiomatic C++ by 60–80% on critical paths.
 
-**2018–2021** — *Full-System Depth*  
-> Deep **C++**, modern **Bazel**, binary-level tuning.  
-> Cross-stack fluency: **iOS** (Swift, Obj-C), **Flutter** (Dart) — to build **systems**, not just services.
+### 2018–2021 — Full-System Depth
+Deepened my expertise in C++, modern Bazel, and binary-level tuning. I worked across the stack—from iOS (Swift, Obj-C) to Flutter (Dart)—to build systems, not just services.
 
-**2015–2018** — *Cloud-Native, Early*  
-> Kubernetes across multiple datacenters — before it was popular.  
-> High-concurrency async Python (Django, Flask) — before `async` was mainstream.
+### 2015–2018 — An Early Bet on Cloud-Native
+Deployed Kubernetes across multiple datacenters before it was popular. Built high-concurrency systems with async Python long before it was mainstream.
 
-**2014** — *The Go Bet*  
-> Adopted **Golang** early. Built high-load infra using core concurrency primitives.
+### 2014 — The Go Bet
+Became an early adopter of Go, building high-load infrastructure with its core concurrency primitives.
 
-**2012–2013** — *The Modern Web, Before It Was a Thing*  
-> Production Angular.js SPAs and MongoDB — pre-MEAN era.  
-> Strategic bet on JSON-native infra while others clung to LAMP-stack.
+### 2012–2013 — Pioneering the Modern Web Stack
+Launched production SPAs with Angular.js and MongoDB in the pre-MEAN era, making a strategic bet on JSON-native infrastructure while others clung to the LAMP stack.
 
-**2011–2012** — *High-Concurrency Groundwork*  
-> Real-time platforms in **Erlang** + **Ruby**.  
-> Dev/Prod parity with **Vagrant** — 4 years before Docker.
+### 2011–2012 — High-Concurrency Groundwork
+Built real-time platforms in Erlang and Ruby. Championed dev/prod parity with Vagrant—four years before Docker existed.
 
-**2008–2010** — *APIs, CDNs & Schema Dynamics*  
-> Dynamic-schema API (pre-GraphQL) for VoD platform.  
-> Built **10 Gbps video CDN** — extreme scale for the time.
-
----
-
+### 2008–2010 — APIs, CDNs & Schema Dynamics
+Developed a dynamic-schema API (a precursor to GraphQL) for a VoD platform and built a 10 Gbps video CDN, which was extreme scale for the time.

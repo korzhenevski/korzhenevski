@@ -44,7 +44,7 @@ At my R&D lab, 1ms.tech, I treat trading as a science, not speculation. The proc
 This is the **ultimate application** of my 15 years in systems engineering: building the architecture to turn market chaos into a laboratory for verifiable discoveries.
 
 ### 2022–2023 — Mastering the Metal
-Switched to a C dialect with near 1:1 instruction mapping, outperforming idiomatic C++ by 60–80% on critical paths.
+Adopted a bare-metal C approach in HPC: writing code as a direct conversation with the CPU (MESI, caches, NUMA, prefetching) to turn hardware behavior into predictable performance.
 
 ### 2018–2021 — Full-System Depth
 Deepened my expertise in C++, modern Bazel, and binary-level tuning. I worked across the stack: from iOS (Swift, Obj-C) to Flutter (Dart) to build systems, not just services.
@@ -62,4 +62,4 @@ Launched production SPAs with Angular.js and MongoDB in the pre-MEAN era, making
 Built real-time platforms in Erlang and Ruby. Dev/prod parity with Vagrant: four years before Docker existed.
 
 ### 2008–2010 — APIs, CDNs & Schema Dynamics
-Developed a dynamic-schema API (a precursor to GraphQL) for a VoD platform and built a 10 Gbps video CDN, which was extreme scale for the time.
+Worked with an elite team of engineers to develop a dynamic-schema API (conceptually similar to what later became GraphQL) for a VoD platform, and built a 10 Gbps video CDN — an extreme scale for the time.

@@ -21,10 +21,11 @@ Built a recommendation engine to serve 10K RPS with p99 < 20ms on bare metal. Th
 ### **Blockchain Validator Node for leading Altcoin Mining Pool (2022)**
 Accelerated a black-box PoW node that had no docs and limited source code. I reverse-engineered its gossip layer and wrote a custom booster in Go/C++. Optimizing with PGO + AVX2 resulted in a **+16% validator reward** with zero protocol changes.
 
+### Corp Security Architecture for a $10M+ HFT/Crypto Firm (2020-2022)
+Designed end-to-end security: Zero Trust + Intel SGX + anti-DDoS + cold wallet protection + secure SDLC. **Result:** 100% compliance (Estonian regulations), zero incidents, full protection of capital and proprietary code.
 
 ### **HFT Market Data Lake for a 20+ Quant Trading Firm (2019)**
 Engineered a system to query a **50 TB / 500B**-row market data lake in real time, cutting latency from 60+ seconds to milliseconds. I designed the ClickHouse architecture (schema, clustering, OS tuning) long before it became the industry standard. The result: **<50 ms query latency: a 1200x speedup.**
-
 
 ### **[Distributed Financial DB](https://github.com/korzhenevski/korzhenevski/blob/master/AsgardDB.md) for a NASDAQ-listed Fintech (2017)**
 Co-designed (with one other engineer) a geo-distributed financial processor that could survive a full datacenter failure. Built on ePaxos and RAMCloud principles, the **system passed Jepsen**: the world's toughest distributed systems test.

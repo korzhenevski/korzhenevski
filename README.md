@@ -62,4 +62,7 @@ Launched production SPAs with Angular.js and MongoDB in the pre-MEAN era, making
 Built real-time platforms in Erlang and Ruby. Dev/prod parity with Vagrant: four years before Docker existed.
 
 ### 2008–2010 — APIs, CDNs & Schema Dynamics
-Worked with an elite team of engineers to develop a dynamic-schema API (conceptually similar to what later became GraphQL) for a VoD platform, and built a 10 Gbps video CDN — an extreme scale for the time.
+Worked with a talented team of engineers to develop a dynamic-schema API (conceptually similar to what later became GraphQL) for a VoD platform, and to build a 10 Gbps video CDN: extreme scale for the time.
+
+### 2007 — Early Start
+At 14, I left formal schooling to work full-time as a software engineer: thanks to an exceptional team who trusted me, supported my growth, and gave me the opportunity to start my career years ahead of schedule.

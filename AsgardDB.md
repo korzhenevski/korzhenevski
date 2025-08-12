@@ -154,7 +154,7 @@ The Plutos/AsgardDB architecture is a testament to the power of first-principles
 
 This work is the result of a multi-year research and development effort led by **[Yuri Korzhenevsky](https://github.com/korzhenevski)** and **[Nikifor Seryakov](https://github.com/nikandfor)** at the Yuri Korzhenevsky R&D Center.
 
-We wish to extend our heartfelt gratitude to the many talented individuals who contributed to this project through their insightful advice, rigorous critiques, and unwavering support. Their feedback was instrumental in shaping the final architecture and pointing out flaws in our early assumptions. We would especially like to thank **Maxim Strakhov**, **Alexander Guzev**, and **Danila Rukhovich** for their invaluable contributions during the formative stages of this research.
+We wish to extend our heartfelt gratitude to the many talented individuals who contributed to this project through their insightful advice, rigorous critiques, and unwavering support. Their feedback was instrumental in shaping the final architecture and pointing out flaws in our early assumptions. We would especially like to thank **Maxim Strakhov (Apple Inc.)**, **Alexander Guzev (Fantom)**, and **Danila Rukhovich (European University Researcher)** for their invaluable contributions during the formative stages of this research.
 
 An early preprint version of the concepts behind this system, titled "AsgardDB: Fast and Scalable Financial Database," was published on ResearchGate and can be accessed via the following link:
 

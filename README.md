@@ -15,12 +15,11 @@ This funds my private R&D lab, where I have full skin in the game: risking my ow
 
 ## Declassified Engagements
 
-My current R&D is my clients’ unfair advantage. It is never public.
+My current R&D is my partners’ unfair advantage. It is never public.
 What I can share are the results of past partnerships, declassified after a 1-2 year confidentiality and competitive embargo.
 
 ### **[Recommendation Engine](https://github.com/korzhenevski/korzhenevski/blob/master/RecEngine.md) for TikTok-like social app (2023)**
 Built a recommendation engine to serve 10K RPS with p99 < 20ms on bare metal. The C++/Go solution used SIMD HNSW + Roaring Bitmaps. I was an early adopter of AWS Graviton (ARM instances), achieving 2x cost efficiency before it became the norm. The system now sustains **p99 < 15 ms**.
-
 
 ### **Blockchain Validator Node for leading Altcoin Mining Pool (2022)**
 Accelerated a black-box PoW node that had no docs and limited source code. I reverse-engineered its gossip layer and wrote a custom booster in Go/C++. Optimizing with PGO + AVX2 resulted in a **+16% validator reward** with zero protocol changes.

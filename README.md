@@ -1,4 +1,4 @@
-# Principal R&D Engineer & System Architect 
+# Principal R&D & System Architect 
 *Latency is a tax on reality. Let’s eliminate it.*
 
 I partner with a handful of elite teams on their hardest architectural challenges.

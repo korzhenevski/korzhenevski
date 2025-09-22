@@ -27,6 +27,9 @@ Accelerated a black-box PoW node that had no docs and limited source code. I rev
 ### Corp Security Architecture for a $10M+ HFT/Crypto Firm (2020-2022)
 Designed end-to-end security: Zero Trust + Intel SGX + anti-DDoS + cold wallet protection + secure SDLC. **Result:** 100% compliance (Estonian regulations), zero incidents, full protection of capital and proprietary code.
 
+### MEV Infrastructure (2020)
+Built **200+ custom nodes** processing billions of mempool events in real-time. Developed **topology reconnaissance** and p2p protocol hacks for transaction sniping, generating **$4M+ MEV** revenue.
+
 ### **HFT Market Data Lake for a 20+ Quant Trading Firm (2019)**
 Engineered a system to query a **50 TB / 500B**-row market data lake in real time, cutting latency from 60+ seconds to milliseconds. I designed the ClickHouse architecture (schema, clustering, OS tuning) long before it became the industry standard. The result: **<50 ms query latency: a 1200x speedup.**
 

@@ -27,7 +27,7 @@ Accelerated a black-box PoW node that had no docs and limited source code. I rev
 ### Corp Security Architecture for a $10M+ HFT/Crypto Firm (2020-2022)
 Designed end-to-end security: Zero Trust + Intel SGX + anti-DDoS + cold wallet protection + secure SDLC. **Result:** 100% compliance (Estonian regulations), zero incidents, full protection of capital and proprietary code.
 
-### MEV Infrastructure (2020)
+### Infrastructure for MEV (2020)
 Built **200+ custom nodes** processing billions of mempool events in real-time. Developed **topology reconnaissance** and p2p protocol hacks for transaction sniping, generating **$4M+ MEV** revenue.
 
 ### **HFT Market Data Lake for a 20+ Quant Trading Firm (2019)**

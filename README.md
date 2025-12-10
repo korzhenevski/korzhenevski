@@ -3,12 +3,6 @@
 
 I partner with a handful of elite teams on their hardest architectural challenges.
 
-This funds my private R&D lab, where I have full skin in the game: risking my own capital.
-
-> If you're building an infrastructure-level system that must survive failure, evolve for years, and perform at the limits of hardware, let's talk.
-> Available for fast one-time second opinions and quick deep audits.
-
-📧 welcome@rnd.center
 🔗 [LinkedIn](https://linkedin.com/in/korzhenevski)
 
 ---

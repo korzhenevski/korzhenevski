@@ -12,7 +12,7 @@ I partner with a handful of elite teams on their hardest architectural challenge
 My current R&D is my partners’ unfair advantage. It is never public.
 What I can share are the results of past partnerships, declassified after a 1-2 year confidentiality and competitive embargo.
 
-### **[Petabyte-Scale Solana Archival Layer](https://github.com/korzhenevski/korzhenevski/blob/master/SolanaArchive.md)** (2024)
+### **[Petabyte-Scale Solana Archival Layer](https://github.com/korzhenevski/korzhenevski/blob/master/SolanaArchive.md)** (2025)
 
 Architected a storage solution to handle hundreds of TBs of high-frequency ledger history. Bypassed standard indexing bottlenecks by designing a custom RocksDB schema with Big-Endian binary keys for locality-aware SST lookups. The C++20 ingestion pipeline utilizes zero-copy Kafka/Protobuf and PGO, successfully optimizing the critical trade-off between ZSTD compression density and read-time CPU latency.
 

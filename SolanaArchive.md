@@ -1,6 +1,7 @@
 # Solana Archival Research: High-Performance Storage Architecture
 
 **Status:** Draft / Research
+
 **Context:** Designing a scalable history access layer for Solana (Genesis to Head).
 
 ## 1. The Foundation: Technology & Constraints

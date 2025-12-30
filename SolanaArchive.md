@@ -10,13 +10,17 @@ Solana’s ledger is not just large; it is hyper-active. With the rise of High-F
 
 ### Why RocksDB?
 We have selected **RocksDB** as the storage engine.
-*   **Justification:** RocksDB is the industry standard for LSM (Log-Structured Merge-tree) storage on SSDs. It allows us to manage the massive write throughput required by Solana's block times while providing a mechanism (compaction) to organize historical data efficiently.
+
+**Justification:** RocksDB is the industry standard for LSM (Log-Structured Merge-tree) storage on SSDs. It allows us to manage the massive write throughput required by Solana's block times while providing a mechanism (compaction) to organize historical data efficiently.
 
 ### The Storage vs. Compute Trade-off
 To handle hundreds of TBs, raw storage is not enough; efficient compression is mandatory.
-*   **Compression:** **ZSTD** is the candidate of choice.
-*   **The Challenge:** High compression ratios save disk space but increase CPU load during reads.
-*   **Action Item:** We must benchmark the specific trade-off between ZSTD compression levels. The goal is to maximize storage density without creating a CPU bottleneck during high-QPS read scenarios.
+
+**Compression:** **ZSTD** is the candidate of choice.
+
+**The Challenge:** High compression ratios save disk space but increase CPU load during reads.
+
+**Action Item:** We must benchmark the specific trade-off between ZSTD compression levels. The goal is to maximize storage density without creating a CPU bottleneck during high-QPS read scenarios.
 
 ---
 
@@ -25,9 +29,12 @@ To handle hundreds of TBs, raw storage is not enough; efficient compression is m
 The performance of an archive is defined by how the data is laid out on the disk. Random I/O is the enemy.
 
 ### Key Format: The Binary Standard
-*   **Requirement:** Keys must be stored in strictly **binary format**. String keys are prohibited to minimize overhead.
-*   **Big-Endian Encoding:** All numeric components (Slots, Transaction Indexes) must use Big-Endian (BE).
-    *   *Justification:* In RocksDB, keys are sorted lexicographically by byte. Big-Endian ensures that the *byte order* matches the *numerical order*. This is the mathematical foundation required for efficient range scans (e.g., "Get all transactions in Slot X").
+
+**Requirement:** Keys must be stored in strictly **binary format**. String keys are prohibited to minimize overhead.
+
+**Big-Endian Encoding:** All numeric components (Slots, Transaction Indexes) must use Big-Endian (BE).
+
+In RocksDB, keys are sorted lexicographically by byte. Big-Endian ensures that the *byte order* matches the *numerical order*. This is the mathematical foundation required for efficient range scans (e.g., "Get all transactions in Slot X").
 
 ### Schema & Column Families
 Data will be segregated into **Column Families (CF)**. This allows us to tune caching, block sizes, and compaction strategies independently for different data types.

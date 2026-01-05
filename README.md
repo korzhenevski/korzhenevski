@@ -42,12 +42,6 @@ Built a scanner in 4 months to monitor 50K+ servers 24/7, even during DC failure
 
 ## My Engineering Path: 17 Years of Betting on Technology, Not Hype
 
-### 2024–Now — Quant Trading R&D at my lab, 1ms.tech
-
-At my R&D lab, 1ms.tech, I treat trading as a science, not speculation. The process is about forming a hypothesis about a market inefficiency, testing it rigorously, and only accepting discoveries backed by undeniable evidence. It's the antithesis of overfitting models to random noise.
-
-This is the **ultimate application** of my 15 years in systems engineering: building the architecture to turn market chaos into a laboratory for verifiable discoveries.
-
 ### 2022–2023 — Mastering the Metal
 Adopted a bare-metal C approach in HPC: writing code as a direct conversation with the CPU (MESI, caches, NUMA, prefetching) to turn hardware behavior into predictable performance.
 

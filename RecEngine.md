@@ -50,10 +50,16 @@ With a solid core, we focused on the end-to-end pipeline.
 
 ### Conclusion: The HFT Verdict
 
-> Bringing a low-latency mindset to a mainstream problem reveals a simple truth: most performance issues aren't algorithmic, they're implementational. The cloud and high-level languages have encouraged a generation of engineers to treat the machine as a magical abstraction.
+Bringing a low-latency mindset to a mainstream problem reveals a simple truth: most performance issues aren't algorithmic, they're implementational. The cloud and high-level languages have encouraged a generation of engineers to treat the machine as a magical abstraction.
 
-> A high-performance system is built on a foundation of disciplined choices: respecting cache lines, writing code that maps cleanly to the CPU's vector units, and measuring everything relentlessly.
+A high-performance system is built on a foundation of disciplined choices: respecting cache lines, writing code that maps cleanly to the CPU's vector units, and measuring everything relentlessly.
 
-> By applying the rigor of an HFT system, we built an engine that was not just faster, but fundamentally more efficient and scalable.
+By applying the rigor of an HFT system, we built an engine that was not just faster, but fundamentally more efficient and scalable.
 
-> **Performance, in the end, isn't a feature you add. It's a feature you design.**
+**Performance, in the end, isn't a feature you add. It's a feature you design.**
+
+> © 2025 Iurii Korzhenevskii. All Rights Reserved. The system architecture and "Deep Dive" methodologies presented here are proprietary R&D.
+> 
+> You may share this document unchanged with attribution.
+> 
+> Copying the architectural patterns for commercial products or claiming authorship is prohibited.

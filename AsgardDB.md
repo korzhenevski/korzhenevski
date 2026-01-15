@@ -160,3 +160,9 @@ An early preprint version of the concepts behind this system, titled "AsgardDB: 
 
 **[AsgardDB: Fast and Scalable Financial Database on ResearchGate](https://www.researchgate.net/publication/326816360_AsgardDB_Fast_and_Scalable_Financial_Database)**
 DOI: 10.13140/RG.2.2.26744.34565
+
+> © 2025 Iurii Korzhenevskii. All Rights Reserved. The system architecture and "Deep Dive" methodologies presented here are proprietary R&D.
+> 
+> You may share this document unchanged with attribution.
+> 
+> Copying the architectural patterns for commercial products or claiming authorship is prohibited.

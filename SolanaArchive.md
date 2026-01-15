@@ -99,3 +99,10 @@ How do we host hundreds of TBs?
 *   [RocksDB: Creating and Ingesting SST Files](https://github.com/facebook/rocksdb/wiki/creating-and-ingesting-sst-files)
 *   [Triton Old Faithful Report (Context on Data Quality)](https://docs.triton.one/project-yellowstone/old-faithful-historical-archive/public-report-epoch-208)
 *   [Reference Implementation: Archival RPC](https://github.com/dexterlaboss/archival-rpc)
+
+> © 2025 Iurii Korzhenevskii. All Rights Reserved.
+> The system architecture and "Deep Dive" methodologies presented here are proprietary R&D.
+> 
+> You may share this document unchanged with attribution.
+> 
+> Copying the architectural patterns for commercial products or claiming authorship is prohibited.
